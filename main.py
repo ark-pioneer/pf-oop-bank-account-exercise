@@ -1,9 +1,5 @@
-from account import Account
+from interface import Interface
 
-account = Account()
+app = Interface()
 
-account.deposit(2000)
-account.deposit(1000)
-account.withdraw(500)
-
-print(account.statement())
+app.run()
